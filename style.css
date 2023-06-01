@@ -1,0 +1,253 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Gotham', sans-serif;
+    background-color: #b25a74;
+    background: url('bg.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.font {
+    font-family: 'Gotham', sans-serif;
+    font-size: 1.1em;
+    color: #4b4b4b;
+}
+.fonts {
+    font-size: 1em;
+    color: #4b4b4b;
+}
+.bigTitlte {
+    font-size: 2.7em;
+}
+.subTitle {
+    font-size: 1.2em;
+
+}
+input[type="text"] {
+    color: #ffffff;
+    background-color: #5c001b;
+    border-color: #ebb0c3;
+}
+
+input[type="number"] {
+    color: #ffffff;
+    background-color: #5c001b;
+    border-color: #ebb0c3;
+}
+
+input[type="email"] {
+    color: #ffffff;
+    background-color: #5c001b;
+    border-color: #ebb0c3;
+}   
+
+.btn-roxo {
+    color: #fff;
+    background-color: #5c001b;
+    border-color: #ebb0c3;
+}
+.btn2 {
+    padding: 1.3em;
+    /* width: 400px; */
+    height: 4.5em;
+    min-width: 72%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+}
+.btn-roxo:hover {
+    color: #fff;
+    background-color: #5c001b;
+    border-color: #ebb0c3;
+}
+
+.btn-roxo:focus {
+    color: #fff;
+    background-color: #5c001b;
+    border-color: #ebb0c3;
+}
+
+.btn-roxo:active {
+    color: #fff;
+    background-color: #5c001b;
+    border-color: #ebb0c3;
+}
+
+#rodape {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#rodape img {
+    width: 324px;
+    height: 550px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
+}
+
+
+.modal {
+    position: absolute;
+    top: 800px;
+    bottom: 0;
+    left: 0;
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+ }
+.columnC {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+}
+.col-6 {
+   -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    /* max-width: 50%; */
+}
+.container {
+        width: 100%;
+        /* padding-right: 15px; */
+        /* padding-left: 15px; */
+        margin-right: auto;
+        margin-left: auto;
+}
+p {
+    font-size: 6px;
+}
+.card {
+    max-width: 850px;
+    width: 800px;
+    border-width: 1px;
+    border-color: rgba(219, 234, 254, 1);
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 1);   
+    
+    padding: 1rem;
+  }
+
+  
+
+.row {
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0 !important; 
+        margin-left: -0 !important;
+}
+.col-6 {
+position: relative;
+width: 100%;
+min-height: 1px;
+padding-right: 0px !important;
+padding-left: 0px !important;
+} 
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #5c001b;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
